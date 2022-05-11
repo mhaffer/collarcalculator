@@ -12,10 +12,12 @@ function Questions (){
 
 
     return (
-      <div className=''>
+      <body>
+              <h1 align='center' className='header' >Build a Collar</h1>
+      <div className='rad-input'>
       <form>
             
-            Collar Size
+            <h2 className='rad-text'>Collar Size</h2>
             <div name="size">
             <input type = "radio" 
             name="sizeOption"
@@ -44,7 +46,7 @@ function Questions (){
             value = '28' />XL 26"-30"
 
        </div>
-            Collar Width
+            <h2 className='rad-text'>Collar Width</h2>
             <div name="width">
 
             <input type = "radio" 
@@ -80,7 +82,7 @@ function Questions (){
 
             </div>
 
-            Add Second Layer
+            <h2 className='rad-text'>Add Second layer</h2>
             <div name="secondLayer">
 
             <input type = "radio" 
@@ -115,7 +117,7 @@ function Questions (){
             value = '28' /> XL
             </div>
 
-            Add Padding
+            <h2 className='rad-text'>Add Padding</h2>
             <div name="padding">
 
             <input type = "radio" 
@@ -152,7 +154,7 @@ function Questions (){
 
 
 
-            Add Martingale
+            <h2 className='rad-text'>Martingale</h2>
 
             <div name="martingale">
 
@@ -168,7 +170,8 @@ function Questions (){
 
             </div>
             
-            Difficult Design
+            <h2 className='rad-text'>Difficult Design</h2>
+
 
             <div name="design">
 
@@ -184,11 +187,11 @@ function Questions (){
             
             </div>
             <div>
-              <h1 align='center' className='rad-text'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)+((Number(secondLayer)*Number(Width))*5)}</h1>
+              <h1 align='center' className='totalstyle'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)+((Number(secondLayer)*Number(Width))*5)}</h1>
             </div>
       </form>
 </div>
-
+</body>
 )
 }
 

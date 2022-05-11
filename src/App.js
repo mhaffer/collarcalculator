@@ -5,7 +5,6 @@ function App () {
   return (
     <div>
       <header className = "App-header"></header>
-      <h1 align='center' className='rad-text' >Build a Collar</h1>
       <Questions />
       
     </div>
