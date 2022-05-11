@@ -15,8 +15,7 @@ function Questions (){
       <body>
               <h1 align='center' className='header' >Build a Collar</h1>
       <div className='rad-input'>
-      <form>
-            
+      
             <h2 className='rad-text'>Collar Size</h2>
             <div name="size">
             <input type = "radio" 
@@ -170,28 +169,49 @@ function Questions (){
 
             </div>
             
-            <h2 className='rad-text'>Difficult Design</h2>
+            <h2 className='rad-text'>Premium Crystals</h2>
 
 
             <div name="design">
 
             <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setDesign(e.target.value)} 
+            value = '0' />No
+            
+            
+            <input type = "radio" 
             name="designOption"
             onChange={e=>setDesign(e.target.value)} 
-            value = '60' />Yes
+            value = '15' /> XS
 
             <input type = "radio" 
             name="designOption"
             onChange={e=>setDesign(e.target.value)} 
-            value = '0' />No
+            value = '30' /> S
+
+            <input type = "radio" 
+            name="designOption"
+            onChange={e=>setDesign(e.target.value)} 
+            value = '45' /> M
+
+            <input type = "radio" 
+            name="designOption"
+            onChange={e=>setDesign(e.target.value)} 
+            value = '60' /> L
+
+            <input type = "radio" 
+            name="designOption"
+            onChange={e=>setDesign(e.target.value)} 
+            value = '75' /> XL
+            </div>
             
             </div>
             <div>
               <h1 align='center' className='totalstyle'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)+((Number(secondLayer)*Number(Width))*5)}</h1>
             </div>
-      </form>
-</div>
-</body>
+      </body>
+
 )
 }
 
