@@ -83,17 +83,33 @@ function Questions (){
             <input type = "radio" 
             name="paddingOption"
             onChange={e=>setPadding(e.target.value)} 
-            value = '50' />Small
-
-            <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
-            value = '70' />Large
-
-            <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
             value = '0' />None
+            
+            
+            <input type = "radio" 
+            name="paddingOption"
+            onChange={e=>setPadding(e.target.value)} 
+            value = '50' /> XS
+
+            <input type = "radio" 
+            name="paddingOption"
+            onChange={e=>setPadding(e.target.value)} 
+            value = '75' /> S
+
+            <input type = "radio" 
+            name="paddingOption"
+            onChange={e=>setPadding(e.target.value)} 
+            value = '100' /> M
+
+            <input type = "radio" 
+            name="paddingOption"
+            onChange={e=>setPadding(e.target.value)} 
+            value = '125' /> L
+
+            <input type = "radio" 
+            name="paddingOption"
+            onChange={e=>setPadding(e.target.value)} 
+            value = '150' /> XL
             </div>
 
             Add Martingale
