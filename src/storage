@@ -1,0 +1,98 @@
+/*         The rest of the question options
+
+<div name="width" 
+          value={this.state.group.collarWidth}
+          onChange={(value) => { this.setState({ collarWidth: (value.target.value) }); }}>
+              <div className="rad-text">
+            <FormControlLabel className="rad-input" value="1.5" control={<Radio />} label='0.75"' />
+            <FormControlLabel className="rad-input" value="2" control={<Radio />} label='1"' />
+            <FormControlLabel className="rad-input" value="2.5" control={<Radio />} label='1.25"' />
+            <FormControlLabel className="rad-input" value="5" control={<Radio />} label='1.5"' />
+            <FormControlLabel className="rad-input" value="7.5" control={<Radio />} label='1.75"' />
+            <FormControlLabel className="rad-input" value="10" control={<Radio />} label='2"' />
+            </div>
+          </div>
+
+          <div className="rad-text">Add Padding</div>
+
+          <div name="padding" value={this.state.group.padding}
+          onChange={(value) => { this.setState({ padding: (value.target.value) }); }}>
+              <div className="rad-text">
+            <FormControlLabel className="rad-input" value="70" control={<Radio />} label="Large" />
+            <FormControlLabel className="rad-input" value="50" control={<Radio />} label="Small" />
+            <FormControlLabel className="rad-input" value="0" control={<Radio />} label="None" />
+            </div>
+          </div>
+
+          <div className="rad-text">Add Martingale</div>
+
+          <div name="martingale" value={this.state.group.martingale}
+          onChange={(value) => { this.setState({ martingale: (value.target.value) }); }}>
+              <div className="rad-text">
+            <FormControlLabel className="rad-input" value="30" control={<Radio />} label="Yes" />
+            <FormControlLabel className="rad-input" value="0" control={<Radio />} label="No" />
+            </div>
+          </div>
+
+          <div className="rad-text">Difficult Design</div>
+
+          <div name="design" value={this.state.group.design}
+          onChange={(value) => { this.setState({ design: (value.target.value) }); }}>
+              <div className="rad-text">
+            <FormControlLabel className="rad-input" value="60" control={<Radio />} label="Yes" />
+            <FormControlLabel className="rad-input" value="0" control={<Radio />} label="No" />
+            </div>
+          </div>
+ */
+/*
+
+getInitialState: function () {
+  return {
+    selectedOption: 'option1'
+  };
+},
+
+handleOptionChange: function (changeEvent) {
+  this.setState({
+    selectedOption: changeEvent.target.value
+  });
+},
+
+handleFormSubmit: function (formSubmitEvent) {
+  formSubmitEvent.preventDefault();
+
+  console.log('You have selected:', this.state.selectedOption);
+},
+
+render: function() {
+  return (
+    <div>
+  <form>
+    <h1 className='rad-text'>Size</h1>
+      <div className="rad-label">
+        <label>
+          <input type="radio" className="rad-input" value="12" checked={this.state.selectedOption === '12'} 
+                    onChange={this.handleOptionChange} />
+          XS 10"-14" </label>
+      </div>
+      <div className="rad-label">
+        <label>
+          <input type="radio" className="rad-input" value="16"
+          checked={this.state.selectedOption === '16'} 
+          onChange={this.handleOptionChange} />
+          S 14"-18"
+        </label>
+      </div>
+      <div className="rad-label">
+        <label>
+          <input type="radio" value="20" className="rad-input"
+          checked={this.state.selectedOption === '20'} 
+          onChange={this.handleOptionChange} />
+          M 18"-22"
+        </label>
+      </div>
+    </form>
+    </div>
+  );
+}
+}; */
