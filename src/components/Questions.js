@@ -8,17 +8,20 @@ function Questions (){
   const [padding, setPadding] = useState();
   const [martingale, setMartingale] = useState();
   const [design, setDesign] = useState();
+  const [secondLayer, setSecondLayer] = useState();
+
 
     return (
-      <div className='rad-input'>
+      <div className=''>
       <form>
             
-             Collar Size
+            Collar Size
             <div name="size">
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '12' />XS 10"-14"
+            value = '12' 
+            />XS 10"-14"
 
             <input type = "radio" 
             name="sizeOption"
@@ -77,6 +80,41 @@ function Questions (){
 
             </div>
 
+            Add Second Layer
+            <div name="secondLayer">
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '0' />No
+            
+            
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '12' /> XS
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '16' /> S
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '20' /> M
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '24' /> L
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '28' /> XL
+            </div>
+
             Add Padding
             <div name="padding">
 
@@ -112,6 +150,8 @@ function Questions (){
             value = '150' /> XL
             </div>
 
+
+
             Add Martingale
 
             <div name="martingale">
@@ -144,7 +184,7 @@ function Questions (){
             
             </div>
             <div>
-              <h1 className='rad-text'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)}</h1>
+              <h1 align='center' className='rad-text'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)+((Number(secondLayer)*Number(Width))*5)}</h1>
             </div>
       </form>
 </div>
