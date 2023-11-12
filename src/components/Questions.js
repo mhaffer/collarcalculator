@@ -14,7 +14,7 @@ function Questions (){
     return (
       <body>
               <h1 align='center' className='header' >Build a Collar</h1>
-              <h3 align='center' className='subheader' >Maddison is the best</h3>
+              <h3 align='center' className='subheader' >Crown Creations</h3>
       <div className='rad-input'>
       
             <h2 className='rad-text'>Collar Size</h2>
@@ -481,6 +481,9 @@ function Questions (){
             <div>
               <h1 align='center' className='totalstyle'>Total: ${((Number(Size)*Number(Width))*10)+Number(Width)+Number(padding)+Number(martingale)+Number(design)+((Number(secondLayer)*Number(Width))*5)}</h1>
             </div>
+
+            <h3 align='center' className='subheader' >Maddison is the best</h3>
+
       </body>
 
 
