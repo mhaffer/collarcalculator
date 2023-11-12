@@ -259,12 +259,6 @@ function Questions (){
             onChange={e=>setPadding(e.target.value)} 
             value = '0' />None
             
-            
-            <input type = "radio" 
-           name="paddingOption"
-            onChange={e=>setPadding(e.target.value)}  
-            value = '0' />No
-
 
             <input type = "radio" 
            name="paddingOption"
@@ -380,11 +374,6 @@ function Questions (){
 
 
             <div name="design">
-
-            <input type = "radio" 
-            name="layerOption"
-            onChange={e=>setDesign(e.target.value)} 
-            value = '0' />No
             
             
             <input type = "radio" 
