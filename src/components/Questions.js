@@ -14,6 +14,7 @@ function Questions (){
     return (
       <body>
               <h1 align='center' className='header' >Build a Collar</h1>
+              <h3 align='center' className='header' >Maddison is the best</h3>
       <div className='rad-input'>
       
             <h2 className='rad-text'>Collar Size</h2>
