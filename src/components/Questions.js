@@ -388,29 +388,102 @@ function Questions (){
             
             
             <input type = "radio" 
-            name="designOption"
-            onChange={e=>setDesign(e.target.value)} 
-            value = '15' /> XS
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '0' />No
+
 
             <input type = "radio" 
-            name="designOption"
+          name="designOption"
             onChange={e=>setDesign(e.target.value)} 
-            value = '30' /> S
+            value = '15' 
+            />8"
 
             <input type = "radio" 
-            name="designOption"
-            onChange={e=>setDesign(e.target.value)} 
-            value = '45' /> M
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '20' />9"
 
             <input type = "radio" 
-            name="designOption"
-            onChange={e=>setDesign(e.target.value)} 
-            value = '60' /> L
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '25' />10"
 
             <input type = "radio" 
-            name="designOption"
-            onChange={e=>setDesign(e.target.value)} 
-            value = '75' /> XL
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '30' />11"
+
+            <input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '35' />12"
+
+            <input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '40' />13"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '45' />14"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '50' />15"
+
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '55' />16"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '60' />17"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '65' />18"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '70' />19"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '75' />20"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '80' />21"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '85' />22"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '90' />23"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '95' />24"
+
+<input type = "radio" 
+          name="designOption"
+            onChange={e=>setDesign(e.target.value)}  
+            value = '100' />25"
             </div>
             
             </div>
