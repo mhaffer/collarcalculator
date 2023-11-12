@@ -21,28 +21,96 @@ function Questions (){
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '12' 
-            />XS 10"-14"
+            value = '8' 
+            />8"
 
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '16' />S 14"-18"
+            value = '9' />9"
 
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '20' />M 18"-22"
+            value = '10' />10"
 
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '24' />L 22"-26"
+            value = '11' />11"
 
             <input type = "radio" 
             name="sizeOption"
             onChange={e=>SetSize(e.target.value)} 
-            value = '28' />XL 26"-30"
+            value = '12' />12"
+
+            <input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '13' />13"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '14' />14"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '15' />15"
+
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '16' />16"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '17' />17"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '18' />18"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '19' />19"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '20' />20"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '21' />21"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '22' />22"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '23' />23"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '24' />24"
+
+<input type = "radio" 
+            name="sizeOption"
+            onChange={e=>SetSize(e.target.value)} 
+            value = '25' />25"
+
+            
 
        </div>
             <h2 className='rad-text'>Collar Width</h2>
