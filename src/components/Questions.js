@@ -156,32 +156,99 @@ function Questions (){
             name="layerOption"
             onChange={e=>setSecondLayer(e.target.value)} 
             value = '0' />No
-            
-            
+
+
             <input type = "radio" 
-            name="layerOption"
-            onChange={e=>setSecondLayer(e.target.value)} 
-            value = '12' /> XS
+           name="layerOption"
+           onChange={e=>setSecondLayer(e.target.value)} 
+            value = '8' 
+            />8"
 
             <input type = "radio" 
             name="layerOption"
             onChange={e=>setSecondLayer(e.target.value)} 
-            value = '16' /> S
+            value = '9' />9"
 
             <input type = "radio" 
             name="layerOption"
             onChange={e=>setSecondLayer(e.target.value)} 
-            value = '20' /> M
+            value = '10' />10"
 
             <input type = "radio" 
             name="layerOption"
             onChange={e=>setSecondLayer(e.target.value)} 
-            value = '24' /> L
+            value = '11' />11"
 
             <input type = "radio" 
             name="layerOption"
             onChange={e=>setSecondLayer(e.target.value)} 
-            value = '28' /> XL
+            value = '12' />12"
+
+            <input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '13' />13"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '14' />14"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '15' />15"
+
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '16' />16"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '17' />17"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '18' />18"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '19' />19"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '20' />20"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '21' />21"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '22' />22"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '23' />23"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '24' />24"
+
+<input type = "radio" 
+            name="layerOption"
+            onChange={e=>setSecondLayer(e.target.value)} 
+            value = '25' />25"
             </div>
 
             <h2 className='rad-text'>Add Padding</h2>
@@ -194,30 +261,102 @@ function Questions (){
             
             
             <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
-            value = '50' /> XS
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '0' />No
+
 
             <input type = "radio" 
-            name="paddingOption"
+           name="paddingOption"
             onChange={e=>setPadding(e.target.value)} 
-            value = '75' /> S
+            value = '50' 
+            />8"
 
             <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
-            value = '100' /> M
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '60' />9"
 
             <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
-            value = '125' /> L
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '70' />10"
 
             <input type = "radio" 
-            name="paddingOption"
-            onChange={e=>setPadding(e.target.value)} 
-            value = '150' /> XL
-            </div>
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '80' />11"
+
+            <input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '90' />12"
+
+            <input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '100' />13"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '110' />14"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '120' />15"
+
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '130' />16"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '140' />17"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '150' />18"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '160' />19"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '170' />20"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '180' />21"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '190' />22"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '200' />23"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '200' />24"
+
+<input type = "radio" 
+           name="paddingOption"
+            onChange={e=>setPadding(e.target.value)}  
+            value = '200' />25"
 
 
 
