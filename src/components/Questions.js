@@ -480,6 +480,7 @@ function Questions (){
           name="designOption"
             onChange={e=>setDesign(e.target.value)}  
             value = '95' />24"
+            </div>
 
 <input type = "radio" 
           name="designOption"
@@ -493,7 +494,9 @@ function Questions (){
             </div>
       </body>
 
+
 )
+
 }
 
 
